@@ -1,0 +1,17 @@
+{
+  "name": "fault-tolerant-backend",
+  "version": "1.0.0",
+  "description": "Fault-tolerant task processing backend with Node.js and AWS",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.600.0",
+    "@aws-sdk/lib-dynamodb": "^3.600.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "uuid": "^9.0.0"
+  }
+}
